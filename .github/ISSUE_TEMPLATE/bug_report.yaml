@@ -17,11 +17,7 @@ body:
       label: 再現環境
       description: |
         再現環境を記載してください。
-        例：
-        Chrome + Windows
-        Edge + Windows
-        Chrome + macOS
-        Safari + macOS
+        例）Chrome、Edge、Safari等
     validations:
       required: true
   - type: textarea
@@ -39,4 +35,6 @@ body:
   - type: textarea
     id: supplement
     attributes:
-      label: 補足
+      label: 備考
+      description: |
+        思い当たる原因等
