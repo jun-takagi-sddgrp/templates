@@ -8,6 +8,7 @@ body:
       label: 概要
       description: |
         発生した不具合についての概要を記載してください。
+        資料等がある場合は併せて添付してください。
     validations:
       required: true
   - type: textarea
