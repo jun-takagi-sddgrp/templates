@@ -1,0 +1,26 @@
+name: Enhancement Request
+description: 機能改善要望
+title: '[Enhancement]: '
+labels: ["Type: Enhancement", "Status: Available"]
+body:
+  - type: input
+    id: function
+    attributes:
+      label: 機能名
+      description: 機能改善を行う機能名を入力してください。
+    validations:
+      required: true
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: |
+        機能改善の概要を入力してください。
+        資料等がある場合は併せて添付してください。
+    validations:
+      required: true
+  - type: textarea
+    id: remakrs
+    attributes:
+      label: 備考
+      description: 追記事項があれば入力してください。
