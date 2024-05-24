@@ -15,7 +15,7 @@ body:
     attributes:
       label: 概要
       description: |
-        不具合にの概要を記載してください。
+        不具合の概要を入力してください。
         資料等がある場合は併せて添付してください。
     validations:
       required: true
@@ -23,7 +23,7 @@ body:
     id: process
     attributes:
       label: 再現手順
-      description: 不具合を再現させる手順を記載してください。
+      description: 不具合を再現させる手順を入力してください。
       value: |
         1. 
         2. 
