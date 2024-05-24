@@ -15,7 +15,7 @@ body:
     attributes:
       label: 概要
       description: |
-        機能追加/仕様変更を行う機能名を入力してください。
+        機能追加/仕様変更の概要を入力してください。
         資料等がある場合は併せて添付してください。
     validations:
       required: true
@@ -23,4 +23,4 @@ body:
     id: remakrs
     attributes:
       label: 備考
-      description: 機能追加/仕様変更に伴う留意事項等、追記事項があれば入力してください。
+      description: 追記事項があれば入力してください。
