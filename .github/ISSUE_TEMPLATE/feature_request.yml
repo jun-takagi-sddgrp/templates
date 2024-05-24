@@ -1,13 +1,13 @@
 name: Feature Request
-description: 機能追加/仕様変更
+description: 機能追加要望
 title: '[Feature]: '
-labels: ["feature"]
+labels: ["Type: Feature", "Status: Available"]
 body:
   - type: input
     id: function
     attributes:
       label: 機能名
-      description: 機能追加/仕様変更を行う機能名を入力してください。
+      description: 機能追加を行う機能名を入力してください。
     validations:
       required: true
   - type: textarea
@@ -15,7 +15,7 @@ body:
     attributes:
       label: 概要
       description: |
-        機能追加/仕様変更の概要を入力してください。
+        機能追加の概要を入力してください。
         資料等がある場合は併せて添付してください。
     validations:
       required: true
