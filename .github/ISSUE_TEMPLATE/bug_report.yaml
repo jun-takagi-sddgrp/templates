@@ -1,7 +1,7 @@
 name: Bug report
 description: 不具合報告
 title: '[Bug]: '
-labels: ["bug"]
+labels: ["Type: Bug", "Status: Available"]
 body:
   - type: input
     id: function
