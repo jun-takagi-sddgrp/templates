@@ -1,21 +1,26 @@
 name: Feature Request
-description: 機能追加・変更要望
-title: "[Feature]: "
-assignees:
-  - wenpe
+description: 機能追加/仕様変更
+title: '[Feature]: '
+labels: ["feature"]
 body:
   - type: input
-    id: feature-outline
+    id: function
     attributes:
-      label: 機能の概要
-      description: 機能の概要を記載
-      placeholder: タグで記事を検索する機能
-    validations:
-      required: false
-  - type: textarea
-    id: detail
-    attributes:
-      label: 機能の詳細
-      description: 機能の詳細を記載してください
+      label: 機能名
+      description: 機能追加/仕様変更を行う機能名を入力してください。
     validations:
       required: true
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: |
+        機能追加/仕様変更を行う機能名を入力してください。
+        資料等がある場合は併せて添付してください。
+    validations:
+      required: true
+  - type: textarea
+    id: remakrs
+    attributes:
+      label: 備考
+      description: 機能追加/仕様変更に伴う留意事項等、追記事項があれば入力してください。
