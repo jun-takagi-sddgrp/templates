@@ -2,12 +2,20 @@ name: Bug report
 description: 不具合報告
 title: '[Bug]: '
 body:
+  - type: input
+    id: function
+    attributes:
+      label: 機能名
+      description: |
+        不具合が発生した機能名を入力してください。
+    validations:
+      required: true
   - type: textarea
     id: overview
     attributes:
       label: 概要
       description: |
-        発生した不具合についての概要を記載してください。
+        不具合にの概要を記載してください。
         資料等がある場合は併せて添付してください。
     validations:
       required: true
@@ -27,3 +35,5 @@ body:
     id: remakrs
     attributes:
       label: 備考
+      description: |
+        考えられる原因等、追記事項があれば入力してください。
