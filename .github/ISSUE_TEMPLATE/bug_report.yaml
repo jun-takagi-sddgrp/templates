@@ -35,4 +35,3 @@ body:
     id: remakrs
     attributes:
       label: 備考
-      description: 考えられる原因等、追記事項があれば入力してください。
