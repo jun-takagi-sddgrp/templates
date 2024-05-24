@@ -1,7 +1,7 @@
 name: Enhancement Request
 description: 機能改善要望
 title: '[Enhancement]: '
-labels: ["Type: Enhancement", "Status: Available"]
+labels: ["Type: Enhancement"]
 body:
   - type: input
     id: function
