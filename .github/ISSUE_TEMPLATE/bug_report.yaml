@@ -35,3 +35,4 @@ body:
     id: remakrs
     attributes:
       label: 備考
+      description: 追記事項があれば入力してください。
